@@ -1,0 +1,70 @@
+:root{
+    --cor-fundo: #b1ffe0;
+    --cor-form: #d9ffeff0;
+    --cor-letra-destaque: #005991;
+    /* #49396f */
+    --cor-cabecalho: #15625a;
+    /* #4fffb8 */
+
+    --font-principal: 'roboto', 'arial', 'serif';
+    --font-titulo: 'ink free', 'arial', 'serif';
+}
+
+header{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+header h1{
+    font-family: var(--font-titulo);
+    color: white;
+    font-size: 70px;
+}
+
+header p{
+    font-family: var(--font-principal);
+    font-size: 20px;
+}
+
+form{
+    background-color: var(--cor-form);
+    border-radius: 8px;
+    width: 80%;
+    padding: 20px;
+    font-family: var(--font-principal);
+    margin-top: 20px;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+#button{
+    margin-top: 30px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.div_form{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.separa_form{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-inline-end: 10px;
+    margin-inline-start: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--font-principal);
+}
